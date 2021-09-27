@@ -1,0 +1,11 @@
+export const ADD_USER = "ADD_USERS";
+export const GET_USERS = "GET_USERS";
+export const REMOVE_USER = "REMOVE_USER";
+export const ADD_PRICE = "ADD_PRICE";
+export const GET_PRICES = "GET_PRICE";
+export const REMOVE_PRICE = "REMOVE_PRICE";
+export const ADD_ITEM = "ADD_ITEM";
+export const GET_ITEMS = "GET_ITEMS";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const SET_LOADING = "SET_LOADING";
+export const USERS_ERROR = "USERS_ERROR";

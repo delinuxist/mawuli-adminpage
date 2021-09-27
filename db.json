@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "firstName": "Kofi ",
+      "lastName": "Mawuli",
+      "id": 1
+    },
+    {
+      "firstName": "labaran ",
+      "lastName": "adamu",
+      "id": 2
+    },
+    {
+      "firstName": "emmaunuel",
+      "lastName": "obeng",
+      "id": 3
+    },
+    {
+      "firstName": "Sheila",
+      "lastName": "Quaye",
+      "id": 4
+    }
+  ],
+  "Prices": [
+    {
+      "Cannopy": 25
+    },
+    {
+      "Chair": 20
+    }
+  ],
+  "items": [
+    {
+      "id": 1
+    }
+  ]
+}
