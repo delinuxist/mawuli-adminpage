@@ -9,7 +9,7 @@ const Items = ({ item: { items }, getItems }) => {
   return (
     <ul>
       {items.map((item) => {
-        return <li key={item.id}>{item}</li>;
+        return <li key={item.id}>{item.itemName}</li>;
       })}
     </ul>
   );
