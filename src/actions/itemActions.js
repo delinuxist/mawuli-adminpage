@@ -19,7 +19,7 @@ export const addItem = (item) => async (dispatch) => {
     const res = await fetch("/items", {
       method: "POST",
       body: JSON.stringify(item),
-      header: {
+      headers: {
         "content-type": "application/json",
       },
     });
