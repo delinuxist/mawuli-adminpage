@@ -2,27 +2,33 @@ import React, { useState } from "react";
 import { connect } from "react-redux";
 import { addItem } from "../../actions/itemActions";
 
-const inputItems = ({ addItem }) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [item, setItem] = useState("");
+const InputItems = ({ addItem }) => {
+  const [item, setItem] = useState({
+    itemName: "",
+  });
+
+  const { itemName } = item;
 
   const OnChange = (e) => {
-    setItem(e.target.value);
+    setItem({
+      ...item,
+      [e.target.name]: e.target.value,
+    });
   };
 
   const OnSubmit = (e) => {
     e.preventDefault();
-    addItem(item);
-    console.log(item);
+    const newItem = { itemName };
+    addItem(newItem);
   };
 
   return (
     <div>
       <label htmlFor="Items">Items</label>
-      <input type="text" name="item" value={item} onChange={OnChange} />
+      <input type="text" name="itemName" value={itemName} onChange={OnChange} />
       <button onClick={OnSubmit}>submit</button>
     </div>
   );
 };
 
-export default connect(null, { addItem })(inputItems);
+export default connect(null, { addItem })(InputItems);
