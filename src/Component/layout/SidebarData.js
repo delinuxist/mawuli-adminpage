@@ -16,4 +16,10 @@ export const SidebarData = [
     icon: <FaIcons.FaCartPlus />,
     cName: "nav-text",
   },
+  {
+    title: "Prices",
+    path: "/prices",
+    icon: <FaIcons.FaCashRegister />,
+    cName: "nav-text",
+  },
 ];
