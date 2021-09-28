@@ -16,17 +16,36 @@
       "id": 3
     }
   ],
-  "Prices": [
+  "prices": [
     {
-      "Cannopy": 25
-    },
-    {
-      "Chair": 20
+      "itemPrice": [
+        {
+          "name": "Cannopy",
+          "amount": 25
+        },
+        {
+          "name": "Chair",
+          "amount": 20
+        }
+      ]
     }
   ],
   "items": [
     {
+      "itemName": "Cannopy",
       "id": 1
+    },
+    {
+      "itemName": "Chair",
+      "id": 2
+    },
+    {
+      "itemName": "Tables",
+      "id": 3
+    },
+    {
+      "itemName": "Metallic Chairs",
+      "id": 4
     }
   ]
 }
