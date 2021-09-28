@@ -6,7 +6,7 @@ import Navbar from "./Component/layout/Navbar";
 import Home from "./Component/pages/Home";
 import Items from "./Component/pages/items/Items";
 import Users from "./Component/pages/users/Users";
-import Price from "./Component/Price";
+import Price from "./Component/pages/prices/Price";
 
 function App() {
   return (
