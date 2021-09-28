@@ -2,10 +2,10 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store";
-import Navbar from "./Component/Navbar";
-import Home from "./Component/Home";
-import Items from "./Component/items/Items";
-import Users from "./Component/users/Users";
+import Navbar from "./Component/layout/Navbar";
+import Home from "./Component/pages/Home";
+import Items from "./Component/pages/items/Items";
+import Users from "./Component/pages/users/Users";
 import Price from "./Component/Price";
 
 function App() {
