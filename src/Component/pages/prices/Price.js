@@ -7,14 +7,16 @@ const Price = ({ price: { prices }, getPrice }) => {
     getPrice();
   }, [getPrice]);
 
-  const data = prices[0].itemPrice;
+  // const data = prices;
 
   return (
-    <div>
-      {data.map((item, index) => {
+    <div className="card-align mt-5">
+      {prices.map((item, index) => {
         return (
-          <div>
-            {item.name} {item.price}
+          <div className="card shadow text-center mt-3 card-width">
+            <div key={index} className="card-body">
+              {item.name} {item.amount}
+            </div>
           </div>
         );
       })}
